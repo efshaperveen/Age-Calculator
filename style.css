@@ -1,0 +1,49 @@
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #030e15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+}
+
+ .container {
+    background-color: rgb(224, 166, 212);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+h1 {
+    margin-bottom: 20px;
+} 
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {    
+     background-color: #07731f;
+}
+
+#result {
+    margin-top: 20px; 
+    font-size: 20px;
+    font-weight: bold;  
+} 
